@@ -1,4 +1,5 @@
-{"homepage": "https://Sudharsan-011/github.io/investment_calc.git",
+{
+  "homepage": "https://Sudharsan-011/github.io/investment_calc",
   "name": "react-essentials-practice",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +10,10 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy":"npm run build"
-    ,"deploy":"gh-pages -d build"
+    ,"deploy":"gh-pages -d dist ",
+    "start": "node index.js",
+    "test": "jest",
+    "compile": "babel src -d lib"
   },
   "dependencies": {
     "react": "^18.2.0",
